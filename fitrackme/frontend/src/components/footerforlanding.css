@@ -1,0 +1,46 @@
+.footer {
+    background-color: white;
+    padding: 20px;
+    margin-top: 7%;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand-info {
+    display: flex;
+    flex-direction: column;
+}
+.brand-logo {
+    width: 40%;
+}
+.social-icons{
+    display: flex;
+    margin-left: 10%;
+}
+.brand-name {
+    color: #333;
+    margin-left: -60%;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: -10%;
+}
+.brand-slogan {
+    color: #333;
+    margin-left: -30.2%;
+    font-size: 0.9em;
+}
+.footer-copyright {
+    margin-top: 2%;
+    margin-left: -10%;
+}
+.footer-cr-msg {
+    color: #333;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.f-icon {
+    color: #333;
+    margin-left: 10px;
+}

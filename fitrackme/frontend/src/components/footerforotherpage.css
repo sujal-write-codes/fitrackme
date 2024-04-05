@@ -1,0 +1,85 @@
+.footer{
+    color: #d9d9d9;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    padding-top: 80px;
+    margin-top: 100px;
+}
+
+.footer-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+}
+.footer-content-left ,.footer-content-right, .footer-content-center{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.footer-content-left li,.footer-content-right li, .footer-content-center li{
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #333;
+}
+.footer-content-right h2{
+    color: #333;
+}   
+.footer hr{
+    width: 100%;
+    height: 2px;
+    margin: 20px 0px;
+    background-color: grey;
+    border: none;
+}
+.brand-logo{
+    width: 40%;
+    margin-left: -65%;
+}
+.brand-name {
+    color: #333;
+    margin-left: -60%;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: -10%;
+}
+.brand-slogan {
+    color: #333;
+    margin-left: -30.2%;
+    font-size: 0.9em;
+}
+.brand-info {
+    display: flex;
+    flex-direction: column;
+}
+.footer-s-icons{
+    margin-left: 8%;
+}
+.st1{
+    color: #333;
+    font-size: 2em;
+}
+.forpppp{
+    color: #333;
+}
+.footer-cr-msg {
+    color: #333;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.hh{
+    color: #333;
+}
+.footer-content-center{
+    margin-left: -10%;
+}
+.footer-content-right{
+    margin: 0 100px;
+}
+

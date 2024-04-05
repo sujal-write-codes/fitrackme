@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-for-signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFB14E;
+  background: linear-gradient(135deg, #FFB14E, #F15656);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container{
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 70vw;
+  max-width: 100%;
+  min-width: none;
+  height: 70vh;
+}
+.form-container-sign-in{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 50%;
+}
+.signin-form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  height: 100%;
+}
+.text-1{
+  color: #3a3a3a;
+}
+.container input {
+  background-color: #eee;
+  border: none;
+  margin: 8px 0;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 95%;
+  outline: none;
+  color: #3a3a3a;
+  font-weight: 500;
+}
+.eye-password{
+  width: 3%;
+  height: 3%;
+  margin-right: -86%;
+  margin-top: -6%;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+.submit-button{
+  background-color: #F2994A;
+  color: #fff;
+  font-size: 12px;
+  padding: 15px 125px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 15%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.submit-button:hover{
+  background-color: #3a3a3a;
+}
+.toggle-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.6s ease-in-out;
+  border-radius: 150px 0 0 100px;
+}
+.toggle {
+  height: 100%;
+  background: #FA7272;
+  background: linear-gradient(270deg, #FA7272, #D3A35C);
+  color: #fff;
+  position: relative;
+  left: -100%;
+  width: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texts-for-toogle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  margin-left: 49%;
+  margin-top: 2%;
+}
+.text-3{
+  font-size: 2.5em;
+}
+.text-4 {
+  font-size: 0.9em;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  margin: 20px 0;
+}
+.for-navigate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.for-login-page-transfer{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-top: 10%;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 10px 45px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.for-login-page-transfer:hover{
+  color: #fff;
+}
+.error-signin{
+  color:red;
+  margin-top: 10%;
+  font-weight: 500;
+  font-size: 1.1em;
+}
